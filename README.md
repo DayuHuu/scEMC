@@ -30,6 +30,8 @@ parser.add_argument('--dataset_str', default='Biase', type=str, help='name of da
 parser.add_argument('--n_clusters', default=3, type=int, help='expected number of clusters')
 
 parser.add_argument('--label_path', default='data/Biase/label.ann', type=str, help='true labels')
+
+# ... other arguments ...
 ```
 ## Run 
 ```python
