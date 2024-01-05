@@ -27,6 +27,7 @@ The example expression matrix data.tsv of dataset Biase is put into data/Biase. 
 parser = argparse.ArgumentParser(description='scEMC')
 parser.add_argument('--n_clusters', default=data_para['K'], type=int)
 parser.add_argument('--lr', default=1, type=float)
+# ... other arguments ...
 ```
 ## Run 
 ```python
