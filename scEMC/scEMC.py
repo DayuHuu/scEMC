@@ -9,7 +9,6 @@ from preprocess import read_dataset, normalize
 from utils import *
 
 def parse_arguments(data_para):
-    """Parse and return command line arguments."""
     parser = argparse.ArgumentParser(description='scEMC')
     parser.add_argument('--n_clusters', default=data_para['K'], type=int)
     parser.add_argument('--lr', default=1, type=float)
@@ -23,8 +22,8 @@ def parse_arguments(data_para):
     parser.add_argument('--cutoff', default=0.5, type=float,
                         help='Start to train combined layer after what ratio of epoch')
     parser.add_argument('--batch_size', default=256, type=int)
-    parser.add_argument('--maxiter', default=10, type=int)
-    parser.add_argument('--pretrain_epochs', default=10, type=int)
+    parser.add_argument('--maxiter', default=500, type=int)
+    parser.add_argument('--pretrain_epochs', default=400, type=int)
     parser.add_argument('--gamma', default=.1, type=float,
                         help='coefficient of clustering loss')  # .1
     parser.add_argument('--tau', default=1., type=float,
