@@ -135,12 +135,6 @@ def main():
     ari = np.round(metrics.adjusted_rand_score(y, y_pred), 4)
     print('Final: ARI= %.4f, NMI= %.4f' % (ari, nmi))
 
-    my_dic2 = dict({'View': 'multi', 'ARI': ari, 'NMI': nmi})  #
-
-    f = open("./result/{}.txt".format(args.name), "a+")
-    f.write(str(args))
-    f.write("\n")
-    f.write(str(my_dic2) + '\r')
 
 if __name__ == "__main__":
     main()
