@@ -1,6 +1,6 @@
 # scEMC
 
-This is the source code for **scEMC: Effective multi-modal clustering method via skip aggregation network for parallel scRNA-seq and scATAC-seq data**. We propose an effective multi-modal clustering model scEMC for parallel scRNA and scATAC data. Concretely, we have devised a skip aggregation network (SAN) to simultaneously learn global structural information among cells and integrate data from diverse modalities. This manuscript is currently under peer review for publication in the journal "Briefings in Bioinformatics". If you have any questions about the code, please send an email to hzauhdy@gmail.com
+This is the source code for **scEMC: Effective multi-modal clustering method via skip aggregation network for parallel scRNA-seq and scATAC-seq data**. We propose an effective multi-modal clustering model scEMC for parallel scRNA and scATAC data. Concretely, we have devised a skip aggregation network (SAN) to simultaneously learn global structural information among cells and integrate data from diverse modalities. This manuscript is currently under peer review for publication in the journal "Briefings in Bioinformatics". If you have any questions about the code, please send an email to hudy@bmie.neu.edu.cn
 
 # Requirements
 
